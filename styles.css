@@ -1,0 +1,34 @@
+body {
+  background-color: grey;
+  height: 51vw;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.calculator {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.button {
+  padding: 10px;
+  background: white;
+  font-size: 2rem;
+  flex-basis: 22.2%;
+  transition: 400ms;
+}
+.button:hover {
+  background-color: lightblue;
+}
+
+.button-div {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
